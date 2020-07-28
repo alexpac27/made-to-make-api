@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Favorite.destroy_all
 Item.destroy_all
 Cart.destroy_all
 User.destroy_all
@@ -24,3 +25,4 @@ item1 = Item.create!(name: "bowl",price: 50, description: "a really nice bowl", 
 item2 = Item.create!(name: "plate",price: 40, description: "a really nice plate", image:"https://images-na.ssl-images-amazon.com/images/I/61rChzh1wJL._SL1500_.jpg", quantity: 4, user_id:user2.id)
 item3 = Item.create!(name: "spoon",price: 30, description: "a really nice spoon", image:"https://images-na.ssl-images-amazon.com/images/I/A1ILerCfv%2BL._SL1500_.jpg", quantity: 4, user_id:user3.id)
 item4 = Item.create!(name: "fork",price: 30, description: "a really nice fork", image:"https://images-na.ssl-images-amazon.com/images/I/A1ILerCfv%2BL._SL1500_.jpg", quantity: 4, user_id:user3.id)
+
