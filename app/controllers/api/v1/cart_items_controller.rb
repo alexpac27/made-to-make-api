@@ -11,6 +11,7 @@ class Api::V1::CartItemsController < ApplicationController
     end
 
     def destroy 
+        # byebug
         cart_item = CartItem.find_by(id: params[:id])
         cart_item.destroy
     end 
