@@ -21,7 +21,7 @@ cart2 = Cart.create!(user_id:user2.id)
 cart3 = Cart.create!(user_id:user3.id)
 
 
-item1 = Item.create!(name: "bowl",price: 50, description: "a really nice bowl", image:"https://images-na.ssl-images-amazon.com/images/I/81bs4OVD8YL._SX500_.jpgF", quantity: 4, user_id:user1.id)
+item1 = Item.create!(name: "bowl",price: 50, description: "a really nice bowl", image:"https://s3.amazonaws.com/kidstir-production-bucket/wp-content/uploads/2018/03/09203009/Salad-Charades.jpg", quantity: 4, user_id:user1.id)
 item2 = Item.create!(name: "plate",price: 40, description: "a really nice plate", image:"https://images-na.ssl-images-amazon.com/images/I/61rChzh1wJL._SL1500_.jpg", quantity: 4, user_id:user2.id)
 item3 = Item.create!(name: "spoon",price: 30, description: "a really nice spoon", image:"https://images-na.ssl-images-amazon.com/images/I/A1ILerCfv%2BL._SL1500_.jpg", quantity: 4, user_id:user3.id)
 item4 = Item.create!(name: "fork",price: 30, description: "a really nice fork", image:"https://images-na.ssl-images-amazon.com/images/I/A1ILerCfv%2BL._SL1500_.jpg", quantity: 4, user_id:user3.id)
